@@ -7,7 +7,17 @@ const questions = [
     type: "input",
     name: "title",
     message: "Name of your Project."
-    }
+    },
+    {
+    type: "input",
+    name: "description",
+    message: "Please describe the project."    
+    },
+    {
+    type: "input",
+    name: "installation",
+    message: "Any installations?"
+    },
 ];
 
 function initialize() {
