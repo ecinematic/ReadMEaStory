@@ -12,7 +12,7 @@ const questions = [
 
 function initialize() {
     inquirer.prompt(questions).then((responses) => {
-        fs.writeFileSync("./form/README.md", generateMarkdown({responses}));
+        fs.writeFileSync("./form/README.md", generateMarkdown(responses));
     });
 };
 
