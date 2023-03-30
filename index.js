@@ -15,9 +15,40 @@ const questions = [
     },
     {
     type: "input",
+    name: "creator",
+    message: "Write your GitHub username.",
+    },
+    {
+    type: "input",
+    name: "email",
+    message: "Provide a valid email address.",
+    },
+    {
+    type: "input",
     name: "installation",
     message: "Any installations?"
     },
+    {
+    type: "input",
+    name: "usage",
+    message: "Provide instructions and examples for use."
+    },
+    {
+    type: "input",
+    name: "credit",
+    message: "List your collaborators, if any."
+    },
+    {
+    type: "checkbox",
+    name: "license",
+    message: "Please select a license applicable to this project.",
+    choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"]
+    },
+    {
+    type: "input",
+    name: "features",
+    message: "List features."
+    }
 ];
 
 function initialize() {
