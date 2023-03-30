@@ -39,7 +39,7 @@ const questions = [
     message: "List your collaborators, if any."
     },
     {
-    type: "checkbox",
+    type: "list",
     name: "license",
     message: "Please select a license applicable to this project.",
     choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"]

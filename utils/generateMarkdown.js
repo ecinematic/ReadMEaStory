@@ -1,4 +1,9 @@
-
+function licenseBadge(license) {
+    if (license !== "none") {
+        return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    }
+    return "none";
+};
 
 function generateMarkdown(data) {
     return `
@@ -9,6 +14,11 @@ ${data.description}
 
 ## Table of Contents
 - [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credit)
+- [License](#license)
+- [Features](#features)
+- [Contribute](#creator)
 
 ## Installation
 ${data.installation}
@@ -17,10 +27,13 @@ ${data.installation}
 ${data.usage}
 
 ## Credits
-${data.credits}
+${data.credit}
 
 ## License
 ${data.license}
+
+## Badges
+${licenseBadge(data.license)}
 
 ## Features
 ${data.features}

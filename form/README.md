@@ -1,26 +1,34 @@
 
-# madre
+# final
 
 ## Description
-muchas cosas
+It's a great project
 
 ## Table of Contents
 - [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credit)
+- [License](#license)
+- [Features](#features)
+- [Contribute](#creator)
 
 ## Installation
+Node and Inquirer
+
+## Usage
 none
 
-##Usage
+## Credits
 none
 
-##Credits
-undefined
+## License
+MIT
 
-##License
-
+## Badges
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Features
-yup
+none to speak of
 
 ## How to Contribute
-madremia or email madremia@yahoo.com
+ecinematic or email ecinematic@yahoo.com
