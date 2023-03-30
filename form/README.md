@@ -1,8 +1,8 @@
 
-# final
+# ReadMEaStory
 
 ## Description
-It's a great project
+An easy way to record a README file
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,13 +13,13 @@ It's a great project
 - [Contribute](#creator)
 
 ## Installation
-Node and Inquirer
+node js and inquirer
 
 ## Usage
 none
 
 ## Credits
-none
+n/a
 
 ## License
 MIT
@@ -28,7 +28,7 @@ MIT
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Features
-none to speak of
+n/a
 
 ## How to Contribute
 ecinematic or email ecinematic@yahoo.com
